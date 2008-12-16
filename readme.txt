@@ -10,9 +10,9 @@ Style Tweaker is a simple Wordpress plugin that allows you to tweak your sites C
 
 == Description ==
 
-You can add CSS to the entire website, regardless of what theme is being used, or add it to just the current theme. You can even add CSS that displays only when you are logged on – very useful when you're playing with a new look, and it's not quite ready for public viewing.
+You can add CSS to the entire website, regardless of what theme is being used, or add it to just the current theme. You can even add CSS that displays only when you are logged on - very useful when you're playing with a new look, and it's not quite ready for public viewing.
 
-That's it! There are no other options, everything is deliberately kept simple. Everything is stored in the database, so you don't even have to worry about file permissions on your CSS files. Even better, all three styles are served in one external CSS file which is only loaded if you have actually made any tweaks – so no wasted HTTP requests.
+That's it! There are no other options, everything is deliberately kept simple. Everything is stored in the database, so you don't even have to worry about file permissions on your CSS files. Even better, all three styles are served in one external CSS file which is only loaded if you have actually made any tweaks - so no wasted HTTP requests.
 
 == Installation ==
 
