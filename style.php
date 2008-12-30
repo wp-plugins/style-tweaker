@@ -8,7 +8,7 @@ if (file_exists($wordpressRealPath.'/wp-load.php')) {
 }
 
 // Prints the required style
-function st_print_style ($style_name) {
+function mbst_print_style ($style_name) {
 	$style = get_option($style_name);
 	if ($style != '')
 		echo stripcslashes(base64_decode($style)."\r");	
@@ -16,7 +16,7 @@ function st_print_style ($style_name) {
 
 // Sets correct HTTP headers
 header('Content-Type: text/css');
-$lastModifiedDate = get_option('st_style_update_timestamp');
+$lastModifiedDate = get_option('mbst_style_update_timestamp');
 if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) && strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE']) >= $lastModifiedDate) {
 	if (php_sapi_name()=='CGI') {
 		Header("Status: 304 Not Modified");
@@ -29,10 +29,10 @@ if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) && strtotime($_SERVER['HTTP_IF_MOD
 }
 
 // Prints the three styles when necessary
-remove_action('shutdown', 'st_add_custom_warning');
-st_print_style('st_style_generic');
-if (get_option(st_option_name(TRUE)) == '')
-	st_print_style(st_option_name());
+remove_action('shutdown', 'mbst_add_custom_warning');
+mbst_print_style('mbst_style_generic');
+if (get_option(mbst_option_name(TRUE)) == '')
+	mbst_print_style(mbst_option_name());
 else
-	st_print_style(st_option_name(TRUE));
+	mbst_print_style(mbst_option_name(TRUE));
 ?>
