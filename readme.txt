@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: mark8barnes
-Donate link: http://www.4-14.org.uk/sermon-browser#support
+Donate link: http://www.4-14.org.uk/wordpress-plugins/donate
 Tags: css, styles, admin, theme, tweak, custom, stylesheet, appearance, design
 Requires at least: 2.2
 Tested up to: 2.7.1
