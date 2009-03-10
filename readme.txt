@@ -3,7 +3,7 @@ Contributors: mark8barnes
 Donate link: http://www.4-14.org.uk/sermon-browser#support
 Tags: css, styles, admin, theme, tweak, custom, stylesheet, appearance, design
 Requires at least: 2.2
-Tested up to: 2.7
+Tested up to: 2.7.1
 Stable tag: trunk
 
 Style Tweaker is a simple Wordpress plugin that allows you to tweak your site's CSS files to your heart's content.
